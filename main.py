@@ -9,8 +9,9 @@ import random
 today = datetime.now()
 start_date = os.environ['START_DATE']
 city = os.environ['CITY']
-birthday_one = os.environ['BIRTHDAY_ONE']
+logging.debug('生日'+os.environ['BIRTHDAY_ONE'])
 
+birthday_one = os.environ['BIRTHDAY_ONE']
 app_id = os.environ["APP_ID"]
 app_secret = os.environ["APP_SECRET"]
 
