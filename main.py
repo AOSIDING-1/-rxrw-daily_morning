@@ -10,7 +10,7 @@ today = datetime.now()
 start_date = os.environ['START_DATE']
 city = os.environ['CITY']
 
-birthday_one = os.environ['BIRTHDAY_ONE']
+birthday_one = os.environ['BIRTHDAY1']
 print('生日'+birthday_one)
 
 app_id = os.environ["APP_ID"]
